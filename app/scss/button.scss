@@ -1,0 +1,53 @@
+@import "vars";
+
+.button {
+  font-family: $main-font;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 20px;
+  background-color: $color-green;
+  padding: 12px 15px 12px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $color-l-blue;
+    color: #ffffff;
+  }
+}
+
+.button--phone-number {
+  position: relative;
+  padding-left: 40px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/SVG/icon-phone.svg);
+  }
+}
+
+.button--inverse {
+  background-color: $color-l-blue;
+
+  &:hover {
+    background-color: $color-green;
+    color: #ffffff;
+  }
+}
+
+.button--transparent {
+  background: none;
+  border: #ffffff solid 2px;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+  }
+}
+

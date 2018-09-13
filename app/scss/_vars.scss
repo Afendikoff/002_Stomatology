@@ -1,0 +1,23 @@
+$default-font: "RobotoLight", "Arial", sans-serif;
+$main-font: "RobotoSlabBold", serif;
+$color-text: #787878;
+$color-l-blue: #21aed7;
+$color-l-blue-l: #21b5e0;
+$color-l-blue-l-l: #24bceb;
+$color-l-blue-d: #1e9fc4;
+$color-d-blue: #004861;
+$color-d-blue-l: #005470;
+$color-green: #59bd56;
+$color-l-gray: #e6f9fa;
+
+$mobile-only: 767px;
+$tablet-width: 768px;
+$desktop-width: 1200px;
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+
+$gutter: $grid-gutter-width;
