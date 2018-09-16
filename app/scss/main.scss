@@ -9,11 +9,12 @@ body {
   font-family: $default-font;
   line-height: 23px;
   font-weight: 300;
-	color: $color-text;
+  color: $color-text;
 }
 
 a {
   text-decoration: none;
+
   &:hover {
     text-decoration: none;
   }
@@ -42,6 +43,17 @@ img {
 @import "button";
 @import "banner";
 @import "service-icon";
+@import "section-title";
+@import "service";
+@import "confidence";
+@import "contacts";
+@import "specialists";
+@import "reviews";
+@import "page-footer";
+@import "social";
+
+
+
 
 
 

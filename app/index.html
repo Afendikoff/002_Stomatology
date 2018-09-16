@@ -52,7 +52,7 @@
       <a class="page-header__phone button button--phone-number" href="tel:+380567852885" aria-label="Номер телефона">(056)
         785-28-85</a>
     </div>
-  </header> 
+  </header>
 
   <!-- Основной блок сайта -->
 
@@ -95,22 +95,34 @@
 
       <ul class="service-icon__list">
         <li class="service-icon__item">
-          <a class="service-icon__item--diagnostic" href="#"><h3 class="service-icon__title">Диагностика</h3></a> 
+          <a class="service-icon__item--diagnostic" href="#">
+            <h3 class="service-icon__title">Диагностика</h3>
+          </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--teeth" href="#"><h3 class="service-icon__title">Лечение зубов</h3><br></a> 
+          <a class="service-icon__item--teeth" href="#">
+            <h3 class="service-icon__title">Лечение зубов</h3><br>
+          </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--gum" href="#"><h3 class="service-icon__title">Лечение десен</h3></a>
+          <a class="service-icon__item--gum" href="#">
+            <h3 class="service-icon__title">Лечение десен</h3>
+          </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--surgery" href="#"><h3 class="service-icon__title">Удаление зубов</h3></a>
+          <a class="service-icon__item--surgery" href="#">
+            <h3 class="service-icon__title">Удаление зубов</h3>
+          </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--beauty" href="#"><h3 class="service-icon__title">Красота зубов</h3></a>
+          <a class="service-icon__item--beauty" href="#">
+            <h3 class="service-icon__title">Красота зубов</h3>
+          </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--child" href="#"><h3 class="service-icon__title">Детская стоматология</h3></a>
+          <a class="service-icon__item--child" href="#">
+            <h3 class="service-icon__title">Детская стоматология</h3>
+          </a>
         </li>
       </ul>
 
@@ -121,7 +133,7 @@
     <section class="service">
       <div class="section-title">
         <h2 class="section-title__title">
-          Услуги
+          услуги
         </h2>
         <p class="section-title__description">
           Какие услуги мы предлагаем?
@@ -129,90 +141,99 @@
       </div>
 
       <div class="service-wrapper">
-
         <div class="block-tiles">
-          <img class="block-tiles__img block-tiles__img--rectangle" src="" alt="Диагностика">
+          <picture>
+            <source media="(min-width: 768px)" srcset="/img/service-diagnostic-80.jpg">
+            <img class="block-tiles__img block-tiles__img--rectangle" src="/img/service-diagnostic-mobile.jpg" alt="Диагностика">
+          </picture>
           <div class="block-tiles__item block-tiles__item--rectangle">
-            <h3 class="block-tiles__item-title">
-              Диагностика
-            </h3>
-            <p class="block-tiles__item-text">
-              Правильный диагноз - первый шаг на пути эффективного лечения.
-              И современная стоматология не является исключением
-            </p>
-            <a class="block-tiles__link button" href="#">Узнать больше</a>
+            <a class="block-tiles__link" href="#">
+              <h3 class="block-tiles__item-title">
+                Диагностика
+              </h3>
+              <p class="block-tiles__item-text">
+                Правильный диагноз - первый шаг на пути эффективного лечения.
+                И современная стоматология не является исключением
+              </p>
+            </a>
           </div>
         </div>
 
         <div class="block-tiles">
-          <img class="block-tiles__img" src="" alt="Лечение зубов">
-          <div class="block-tiles__item block-tiles__item--teeth">
-            <h3 class="block-tiles__item-title">
-              Лечение зубов
-            </h3>
-            <p class="block-tiles__item-text">
-              Применение современного оборудования, технологий и материалов
-              позволяет справиться с любыми заболеваниями.
-            </p>
-            <a class="block-tiles__link button-link" href="#">Узнать больше</a>
+          <img class="block-tiles__img" src="/img/service-teeth.jpg" alt="Лечение зубов">
+          <div class="block-tiles__item block-tiles__item--blue block-tiles__item--teeth">
+            <a class="block-tiles__link" href="#">
+              <h3 class="block-tiles__item-title">
+                Лечение зубов
+              </h3>
+              <p class="block-tiles__item-text">
+                Применение современного оборудования, технологий и материалов
+                позволяет справиться с любыми заболеваниями.
+              </p>
+            </a>
           </div>
         </div>
 
         <div class="block-tiles">
-          <img class="block-tiles__img" src="" alt="Лечение дёсен">
-          <div class="block-tiles__item block-tiles__item--gum">
-            <h3 class="block-tiles__item-title">
-              Лечение дёсен
-            </h3>
-            <p class="block-tiles__item-text">
-              Кровоточивость, припухлость, покраснение десен - всё это симптомы
-              довольно опасных заболеваний игнорировать которые нельзя.
-            </p>
-            <a class="block-tiles__link button-link" href="#">Узнать больше</a>
+          <img class="block-tiles__img" src="/img/service-gum.jpg" alt="Лечение дёсен">
+          <div class="block-tiles__item block-tiles__item--green block-tiles__item--gum">
+            <a class="block-tiles__link" href="#">
+              <h3 class="block-tiles__item-title">
+                Лечение дёсен
+              </h3>
+              <p class="block-tiles__item-text">
+                Кровоточивость, припухлость, покраснение десен - всё это симптомы
+                довольно опасных заболеваний игнорировать которые нельзя.
+              </p>
+            </a>
           </div>
         </div>
 
         <div class="block-tiles">
-          <img class="block-tiles__img" src="" alt="Удаление зубов">
-          <div class="block-tiles__item">
-            <h3 class="block-tiles__item-title">
-              Удаление зубов
-            </h3>
-            <p class="block-tiles__item-text">
-              Удаление зуба - крайняя мера, которая к счастью всё менее популярна в наше время.
-              Тем не менее существует ряд случаев когда...
-            </p>
-            <a class="block-tiles__link button-link" href="#">Узнать больше</a>
+          <div class="block-tiles__item block-tiles__item">
+            <a class="block-tiles__link button-link" href="#">
+              <h3 class="block-tiles__item-title">
+                Удаление зубов
+              </h3>
+              <p class="block-tiles__item-text">
+                Удаление зуба - крайняя мера, которая к счастью всё менее популярна в наше время.
+                Тем не менее существует ряд случаев когда...
+              </p>
+            </a>
+          </div>
+          <img class="block-tiles__img" src="/img/service-surgery.jpg" alt="Удаление зубов">
+        </div>
+
+        <div class="block-tiles">
+          <img class="block-tiles__img" src="/img/service-beauty.jpg" alt="Красота зубов">
+          <div class="block-tiles__item block-tiles__item--beauty">
+            <a class="block-tiles__link button-link" href="#">
+              <h3 class="block-tiles__item-title">
+                Красота зубов
+              </h3>
+              <p class="block-tiles__item-text">
+                Очень мало людей обладают белоснежной и безупречной улыбкой от природы.
+                Остальные обращаются к стоматологам.
+              </p>
+            </a>
           </div>
         </div>
 
         <div class="block-tiles">
-          <img class="block-tiles__img" src="" alt="Красота зубов">
-          <div class="block-tiles__item">
-            <h3 class="block-tiles__item-title">
-              Красота зубов
-            </h3>
-            <p class="block-tiles__item-text">
-              Очень мало людей обладают белоснежной и безупречной улыбкой от природы.
-              Остальные обращаются к стоматологам.
-            </p>
-            <a class="block-tiles__link button-link" href="#">Узнать больше</a>
+          <div class="block-tiles__item block-tiles__item--green">
+            <a class="block-tiles__link button-link" href="#">
+              <h3 class="block-tiles__item-title">
+                Детская<br>стоматология
+              </h3>
+              <p class="block-tiles__item-text">
+                Мы заботимся о своих пациентах независимо от их возраста,
+                но особое внимание и наилучшие условия предлагаем детям...
+              </p>
+            </a>
           </div>
+          <img class="block-tiles__img" src="/img/service-child.jpg" alt="Детская стоматология">
         </div>
 
-        <div class="block-tiles">
-          <img class="block-tiles__img" src="" alt="Детская стоматология">
-          <div class="block-tiles__item block-tiles__item--child">
-            <h3 class="block-tiles__item-title">
-              Детская стоматология
-            </h3>
-            <p class="block-tiles__item-text">
-              Мы заботимся о своих пациентах независимо от их возраста,
-              но особое внимание и наилучшие условия предлагаем детям...
-            </p>
-            <a class="block-tiles__link button-link" href="#">Узнать больше</a>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -222,15 +243,15 @@
       <div class="confidence-wrapper">
         <p class="confidence__text">Доверьте нам заботу о своих улыбках.</p>
         <p class="confidence__call-us">Позвоните и запишитесь на приём уже сегодня.</p>
-        <a class="phone-number" href="tel:+380567852885" aria-label="Номер телефона">(056) 785-28-85</a>
-        <img class="confidence__img" src="" alt="Фотография семьи">
+        <a class="confidence__btn-phone button button--phone-number" href="tel:+380567852885" aria-label="Номер телефона">(056)
+          785-28-85</a>
+        <img class="confidence__img" src="/img/confidence-family.png" alt="Фотография семьи">
       </div>
     </section>
 
     <!-- Раздел контакты -->
 
     <section class="contacts">
-
       <div class="section-title">
         <h2 class="section-title__title">
           контакты
@@ -239,78 +260,91 @@
           Как нас найти?
         </p>
       </div>
-
-      <div class="contacts-map">
-        <img src="" alt="Карта проезда" width="665px" height="398">
-      </div>
-      <div class="contacts-card">
-        <div class="contacts-info">
-          <b class="contacts-info__title">Наши контакты:</b>
-          <p class="contacts-info__schedule">Пн-Пт: 09:00 - 18:00; Сб: 09-00 - 14:00</p>
-          <a class="contacts-info__phone" href="tel: +380567852885">+38 (056) 785-28-85</a>
-          <p class="contacts-info__address">
-            г. Днепр, Индустриальный район,
-            <br>
-            ул. Академика Образцова, 1/3, п. 1
-          </p>
+      <div class="contacts__wrapper">
+        <div class="contacts-map">
+          <div id="map"></div>
         </div>
-        <button class="contacts-card__view-map" type="button">показать на карте</button>
-        <p class="contacts-card__description">
-          Мы работаем по предварительной записи.
-          <br>
-          Исключение - неотложная помощь.
-        </p>
+        <div class="contacts-card">
+          <b class="contacts-card__title">Наши контакты:</b>
+          <div class="contacts-info">
+            <p class="contacts-info__schedule">Пн - Пт: 09:00 - 18:00; Сб: 09-00 - 14:00</p>
+            <a class="contacts-info__phone" href="tel: +380567852885">+38 (056) 785-28-85</a>
+            <p class="contacts-info__address">
+              г. Днепр, Индустриальный район,
+              <br>
+              ул. Академика Образцова, 1/3, п. 1
+            </p>
+            <p class="contacts-card__description">
+              Мы работаем по предварительной записи.
+              <br>
+              Исключение - неотложная помощь.
+            </p>
+          </div>
+        </div>
       </div>
-
     </section>
 
     <!-- Раздел специалисты -->
 
     <section class="specialists">
       <div class="section-title">
-        <h2 class="section-title__title section-title__title--spec">
-          контакты
+        <h2 class="section-title__title--spec">
+          команда
         </h2>
         <p class="section-title__description section-title__description--spec">
-          Как нас найти?
+          Наши специалисты
         </p>
       </div>
 
-      <figure class="specialists-card">
-        <img class="specialists-card__img" src="" alt="Фото специалиста">
-        <figcaption class="specialists-card__info">
-          <b class="specialists-card__last-name">Иванова</b>
-          <p class="specialists-card__first-name">Ирина Петровна</p>
-          <small class="specialists-card__position">Ортопед</small>
-        </figcaption>
-      </figure>
+      <div class="specialists__wrapper">
+        <figure class="specialists-card">
+          <picture>
+            <source media="(min-width: 768px)" srcset="/img/specialist_1.jpg">
+            <img class="specialists-card__img" src="/img/specialist_1_mobile.jpg" alt="Фото специалиста">
+          </picture>
+          <figcaption class="specialists-card__info">
+            <b class="specialists-card__last-name">Иванова</b>
+            <p class="specialists-card__first-name">Ирина Петровна</p>
+            <small class="specialists-card__position">Ортопед</small>
+          </figcaption>
+        </figure>
 
-      <figure class="specialists-card">
-        <img class="specialists-card__img" src="" alt="Фото специалиста">
-        <figcaption class="specialists-card__info">
-          <b class="specialists-card__last-name">Сазонов</b>
-          <p class="specialists-card__first-name">Арчибальд Ивович</p>
-          <small class="specialists-card__position">Ортопед</small>
-        </figcaption>
-      </figure>
+        <figure class="specialists-card">
+          <picture>
+            <source media="(min-width: 768px)" srcset="/img/specialist_2.jpg">
+            <img class="specialists-card__img" src="/img/specialist_2_mobile.jpg" alt="Фото специалиста">
+          </picture>
+          <figcaption class="specialists-card__info">
+            <b class="specialists-card__last-name">Сазонов</b>
+            <p class="specialists-card__first-name">Арчибальд Ивович</p>
+            <small class="specialists-card__position">Ортопед</small>
+          </figcaption>
+        </figure>
 
-      <figure class="specialists-card">
-        <img class="specialists-card__img" src="" alt="Фото специалиста">
-        <figcaption class="specialists-card__info">
-          <b class="specialists-card__last-name">Глушко</b>
-          <p class="specialists-card__first-name">Ирина Олеговна</p>
-          <small class="specialists-card__position">Хирург</small>
-        </figcaption>
-      </figure>
+        <figure class="specialists-card">
+          <picture>
+            <source media="(min-width: 768px)" srcset="/img/specialist_3.jpg">
+            <img class="specialists-card__img" src="/img/specialist_3_mobile.jpg" alt="Фото специалиста">
+          </picture>
+          <figcaption class="specialists-card__info">
+            <b class="specialists-card__last-name">Глушко</b>
+            <p class="specialists-card__first-name">Ирина Олеговна</p>
+            <small class="specialists-card__position">Хирург</small>
+          </figcaption>
+        </figure>
 
-      <figure class="specialists-card">
-        <img class="specialists-card__img" src="" alt="Фото специалиста">
-        <figcaption class="specialists-card__info">
-          <b class="specialists-card__last-name">Ковальчук</b>
-          <p class="specialists-card__first-name">Анна Евгениевна</p>
-          <small class="specialists-card__position">Парадонт</small>
-        </figcaption>
-      </figure>
+        <figure class="specialists-card">
+          <picture>
+            <source media="(min-width: 768px)" srcset="/img/specialist_4.jpg">
+            <img class="specialists-card__img" src="/img/specialist_4_mobile.jpg" alt="Фото специалиста">
+          </picture>
+          <figcaption class="specialists-card__info">
+            <b class="specialists-card__last-name">Ковальчук</b>
+            <p class="specialists-card__first-name">Анна Евгениевна</p>
+            <small class="specialists-card__position">Парадонт</small>
+          </figcaption>
+        </figure>
+      </div>
 
     </section>
 
@@ -330,54 +364,73 @@
       <div class="reviews-wrapper">
         <blockquote class="reviews-card">
           <div class="reviews-card__img">
-            <img src="" alt="Фото автора">
+            <img src="/img/author_1.jpg" alt="Фото автора" width="115" height="115">
           </div>
-          <cite class="reviews__author">Даша</cite>
-          <small class="reviews__age">24 года</small>
-          <p class="reviews__text">Лечила зуб мудрости. Как всегда очень переживала,
+          <div class="reviews-card__data">
+            <b class="reviews-card__author">Даша</b>
+            <small class="reviews-card__age">24 года</small>
+          </div>
+          <p class="reviews-card__text">Лечила зуб мудрости. Как всегда очень переживала,
             но в процессе тревога отступила. Врач сделала всё безболезненно и быстро...
           </p>
         </blockquote>
 
         <blockquote class="reviews-card">
           <div class="reviews-card__img">
-            <img src="" alt="Фото автора">
+            <img src="/img/author_2.jpg" alt="Фото автора" width="115" height="115">
           </div>
-          <cite class="reviews__author">Игорь</cite>
-          <small class="reviews__age">52 года</small>
-          <p class="reviews__text">Работаю с клиентами и моя улыбка одно из моих главных орудий.
-            Записался на чистку. Процедура стандартная, но внимание и забота врачей...
+          <div class="reviews-card__data">
+            <b class="reviews-card__author">Игорь</b>
+            <small class="reviews-card__age">42 года</small>
+          </div>
+          <p class="reviews-card__text">Лечила зуб мудрости. Как всегда очень переживала,
+            но в процессе тревога отступила. Врач сделала всё безболезненно и быстро...
           </p>
         </blockquote>
 
         <blockquote class="reviews-card">
           <div class="reviews-card__img">
-            <img src="" alt="Фото автора">
+            <img src="/img/author_3.jpg" alt="Фото автора" width="115" height="115">
           </div>
-          <cite class="reviews__author">Евгения</cite>
-          <small class="reviews__age">56 лет</small>
-          <p class="reviews__text">Под старой пломбой начал болеть зуб. Сделали всё безболезненно,
-            персонал отзывчивый и внимательный. Очень благодарна им.
+          <div class="reviews-card__data">
+            <b class="reviews-card__author">Евгения</b>
+            <small class="reviews-card__age">56 лет</small>
+          </div>
+          <p class="reviews-card__text">Лечила зуб мудрости. Как всегда очень переживала,
+            но в процессе тревога отступила. Врач сделала всё безболезненно и быстро...
           </p>
         </blockquote>
-        <a class="button reviews-card__more" href="#">Смотреть больше отзывов</a>
       </div>
-
+      <div class="reviews-card__more">
+        <a class="button" href="#">Смотреть больше отзывов</a>
+      </div>
     </section>
   </main>
 
   <!-- Подвал сайта -->
+
   <footer class="page-footer">
     <div class="page-footer__wrapper">
+
       <div class="page-footer_name">
         <b class="page-footer__title-line1">Стоматология</b>
         <p class="page-footer__title-line2">На Академика Образцова</p>
       </div>
 
+      <div class="page-footer-contacts__mobile">
+        <p class="page-footer-contacts__address">
+          г. Днепр, Индустриальный район,
+          <br>
+          ул. Академика Образцова, 1/3, п. 1
+        </p>
+        <a class="page-footer__phone button button--phone-number button--inverse" href="tel: +380567852885">+38 (056)
+          785-28-85</a>
+      </div>
+
       <div class="page-footer-nav">
         <b class="page-footer-nav__title">Меню</b>
         <ul class="page-footer-nav__list">
-          <li class="page-footer-nav__list-item page-footer-nav__list-item--active">
+          <li class="page-footer-nav__list-item">
             <a href="#">Главная</a>
           </li>
           <li class="page-footer-nav__list-item">
@@ -401,7 +454,7 @@
       <div class="page-footer-nav">
         <b class="page-footer-nav__title">Услуги</b>
         <ul class="page-footer-nav__list">
-          <li class="page-footer-nav__list-item page-footer-nav__list-item--active">
+          <li class="page-footer-nav__list-item">
             <a href="#">Диагностика</a>
           </li>
           <li class="page-footer-nav__list-item">
@@ -417,32 +470,68 @@
             <a href="#">Красота зубов</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Детская стоматология</a>
+            <a href="#">Для детей</a>
           </li>
         </ul>
       </div>
 
       <div class="page-footer-contacts">
         <b class="page-footer-contacts__title">Контакты</b>
-        <div class="page-footer-contacts__info contacts-info">
-          <p class="contacts-info__schedule contacts-info__schedule--foot">Пн-Пт: 09:00 - 18:00; Сб: 09-00 - 14:00</p>
-          <a class="contacts-info__phone contacts-info__phone--foot" href="tel: +380567852885">+38 (056) 785-28-85</a>
-          <p class="contacts-info__address contacts-info__address--foot">
+        <div class="page-footer-contacts__info">
+          <p class="page-footer-contacts__schedule">Пн-Пт: 09:00 - 18:00; Сб: 09-00 - 14:00</p>
+          <a class="page-footer-contacts__phone" href="tel: +380567852885">+38 (056) 785-28-85</a>
+          <p class="page-footer-contacts__address">
             г. Днепр, Индустриальный район,
             <br>
             ул. Академика Образцова, 1/3, п. 1
           </p>
         </div>
       </div>
+
     </div>
-    <div class="page-footer__social social">
-      <ul class="social__list">
-        <li class="social__item"><a class="social__link social__link--facebook" href="">Мы в Фейсбуке</a></li>
-        <li class="social__item"><a class="social__link social__link--instagram" href="">Мы в Инстаграм</a></li>
-        <li class="social__item"><a class="social__link social__link--linkedin" href="">Мы в LinkedIn</a></li>
-      </ul>
+    <div class="page-footer__social">
+      <div class="page-footer__social-wrapper">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="" aria-label="Мы в Фейсбуке"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--instagram" href=""></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--linkedin" href="" aria-label="Мы в LinkedIn"></a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
+
+  <!-- карта google -->
+
+  <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var uluru = {
+        lat: 48.517757,
+        lng: 35.055323
+      };
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+        document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiJeXQnVPRTswmYTTP5rJzoeAyTt4ev74&callback=initMap">
+  </script>
 
   <script src="js/scripts.min.js"></script>
 

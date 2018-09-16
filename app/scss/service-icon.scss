@@ -30,7 +30,7 @@
 .service-icon__item a {
   display: block;
   width: 145px;
-  padding-top: 100px;
+  padding-top: 90px;
   padding-bottom: 20px;
   color: #ffffff;
   transition: 0.3s;
@@ -46,6 +46,7 @@
   line-height: 20px;
   padding: 0;
   margin: 0;
+  padding-top: 10px;
 }
 
 .service-icon__item--diagnostic::before {
