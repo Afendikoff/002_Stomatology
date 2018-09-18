@@ -31,9 +31,10 @@
   <!-- Шапка сайта -->
 
   <header class="page-header">
+    <a name="index"></a>
     <div class="page-header__wrapper">
       <a class="page-header__logo">
-        <img src="/img/SVG/main-header-logo.svg" width="210px" height="56px" alt="Логотип стоматологии">
+        <img src="img/SVG/main-header-logo.svg" width="210px" height="56px" alt="Логотип стоматологии">
       </a>
 
       <nav class="main-nav main-nav--closed main-nav--nojs">
@@ -42,11 +43,22 @@
         </button>
         <ul class="main-nav__list">
           <li class="main-nav__list-item main-nav__list-item--main main-nav__list-item--active"><a>Главная</a></li>
-          <li class="main-nav__list-item"><a href="#">Услуги</a></li>
-          <li class="main-nav__list-item"><a href="#">Цены</a></li>
-          <li class="main-nav__list-item"><a href="#">Контакты</a></li>
-          <li class="main-nav__list-item"><a href="#">Врачи</a></li>
-          <li class="main-nav__list-item"><a href="#">Отзывы</a></li>
+          <li class="main-nav__list-item main-nav__list-item--serv"><a href="#service">Услуги</a>
+
+            <ul class="main-nav__drop">
+              <li class="main-nav__drop-item"><a href="/diagnostic.html">Диагностика</a></li>
+              <li class="main-nav__drop-item"><a href="/teeth.html">Лечение зубов</a></li>
+              <li class="main-nav__drop-item"><a href="/gum.html">Лечение дёсен</a></li>
+              <li class="main-nav__drop-item"><a href="/surgery.html">Удаление зубов</a></li>
+              <li class="main-nav__drop-item"><a href="/beauty.html">Красота зубов</a></li>
+              <li class="main-nav__drop-item"><a href="/children.html">Для детей</a></li>
+            </ul>
+
+          </li>
+          <li class="main-nav__list-item"><a href="/price.html">Цены</a></li>
+          <li class="main-nav__list-item"><a href="#contacts">Контакты</a></li>
+          <li class="main-nav__list-item"><a href="#specialists">Врачи</a></li>
+          <li class="main-nav__list-item"><a href="#reviews">Отзывы</a></li>
         </ul>
       </nav>
       <a class="page-header__phone button button--phone-number" href="tel:+380567852885" aria-label="Номер телефона">(056)
@@ -76,12 +88,12 @@
           <a class="banner__phone button button--phone-number button--transparent" href="tel:+380567852885" aria-label="Номер телефона">(056)
             785-28-85</a>
         </div>
-        <a href="#" class="banner__price button button--inverse">Открыть прайс-лист</a>
+        <a href="/price.html" class="banner__price button button--inverse">Открыть прайс-лист</a>
       </div>
       <div class="banner__img-wrapper">
         <div class="banner__bg">
         </div>
-        <img class="banner__img" src="/img/banner-girl.png" alt="Девушка в стоматологическом кресле">
+        <img class="banner__img" src="img/banner-girl.png" alt="Девушка в стоматологическом кресле">
       </div>
     </section>
 
@@ -95,32 +107,32 @@
 
       <ul class="service-icon__list">
         <li class="service-icon__item">
-          <a class="service-icon__item--diagnostic" href="#">
+          <a class="service-icon__item--diagnostic" href="/diagnostic.html">
             <h3 class="service-icon__title">Диагностика</h3>
           </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--teeth" href="#">
+          <a class="service-icon__item--teeth" href="/teeth.html">
             <h3 class="service-icon__title">Лечение зубов</h3><br>
           </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--gum" href="#">
+          <a class="service-icon__item--gum" href="/gum.html">
             <h3 class="service-icon__title">Лечение десен</h3>
           </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--surgery" href="#">
+          <a class="service-icon__item--surgery" href="/surgery.html">
             <h3 class="service-icon__title">Удаление зубов</h3>
           </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--beauty" href="#">
+          <a class="service-icon__item--beauty" href="/beauty.html">
             <h3 class="service-icon__title">Красота зубов</h3>
           </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--child" href="#">
+          <a class="service-icon__item--child" href="/children.html">
             <h3 class="service-icon__title">Детская стоматология</h3>
           </a>
         </li>
@@ -131,6 +143,7 @@
     <!-- Раздел услуги -->
 
     <section class="service">
+      <a name="service"></a>
       <div class="section-title">
         <h2 class="section-title__title">
           услуги
@@ -143,11 +156,11 @@
       <div class="service-wrapper">
         <div class="block-tiles">
           <picture>
-            <source media="(min-width: 768px)" srcset="/img/service-diagnostic-80.jpg">
-            <img class="block-tiles__img block-tiles__img--rectangle" src="/img/service-diagnostic-mobile.jpg" alt="Диагностика">
+            <source media="(min-width: 768px)" srcset="img/service-diagnostic-80.jpg">
+            <img class="block-tiles__img block-tiles__img--rectangle" src="img/service-diagnostic-mobile.jpg" alt="Диагностика">
           </picture>
           <div class="block-tiles__item block-tiles__item--rectangle">
-            <a class="block-tiles__link" href="#">
+            <a class="block-tiles__link" href="/diagnostic.html">
               <h3 class="block-tiles__item-title">
                 Диагностика
               </h3>
@@ -162,7 +175,7 @@
         <div class="block-tiles">
           <img class="block-tiles__img" src="/img/service-teeth.jpg" alt="Лечение зубов">
           <div class="block-tiles__item block-tiles__item--blue block-tiles__item--teeth">
-            <a class="block-tiles__link" href="#">
+            <a class="block-tiles__link" href="/teeth.html">
               <h3 class="block-tiles__item-title">
                 Лечение зубов
               </h3>
@@ -177,7 +190,7 @@
         <div class="block-tiles">
           <img class="block-tiles__img" src="/img/service-gum.jpg" alt="Лечение дёсен">
           <div class="block-tiles__item block-tiles__item--green block-tiles__item--gum">
-            <a class="block-tiles__link" href="#">
+            <a class="block-tiles__link" href="/gum.html">
               <h3 class="block-tiles__item-title">
                 Лечение дёсен
               </h3>
@@ -191,7 +204,7 @@
 
         <div class="block-tiles">
           <div class="block-tiles__item block-tiles__item">
-            <a class="block-tiles__link button-link" href="#">
+            <a class="block-tiles__link button-link" href="/surgery.html">
               <h3 class="block-tiles__item-title">
                 Удаление зубов
               </h3>
@@ -207,7 +220,7 @@
         <div class="block-tiles">
           <img class="block-tiles__img" src="/img/service-beauty.jpg" alt="Красота зубов">
           <div class="block-tiles__item block-tiles__item--beauty">
-            <a class="block-tiles__link button-link" href="#">
+            <a class="block-tiles__link button-link" href="/beauty.html">
               <h3 class="block-tiles__item-title">
                 Красота зубов
               </h3>
@@ -221,7 +234,7 @@
 
         <div class="block-tiles">
           <div class="block-tiles__item block-tiles__item--green">
-            <a class="block-tiles__link button-link" href="#">
+            <a class="block-tiles__link button-link" href="/children.html">
               <h3 class="block-tiles__item-title">
                 Детская<br>стоматология
               </h3>
@@ -250,7 +263,7 @@
     </section>
 
     <!-- Раздел контакты -->
-
+    <a name="contacts"></a>
     <section class="contacts">
       <div class="section-title">
         <h2 class="section-title__title">
@@ -285,8 +298,9 @@
     </section>
 
     <!-- Раздел специалисты -->
-
+    <a name="specialists"></a>
     <section class="specialists">
+      
       <div class="section-title">
         <h2 class="section-title__title--spec">
           команда
@@ -349,7 +363,7 @@
     </section>
 
     <!-- Раздел отзывы -->
-
+    <a name="reviews"></a>
     <section class="reviews">
 
       <div class="section-title">
@@ -431,22 +445,22 @@
         <b class="page-footer-nav__title">Меню</b>
         <ul class="page-footer-nav__list">
           <li class="page-footer-nav__list-item">
-            <a href="#">Главная</a>
+            <a href="#index">Главная</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Услуги</a>
+            <a href="#service">Услуги</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Цены</a>
+            <a href="/price.html">Цены</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Контакты</a>
+            <a href="#contacts">Контакты</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Команда</a>
+            <a href="#specialists">Врачи</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Отзывы</a>
+            <a href="#reviews">Отзывы</a>
           </li>
         </ul>
       </div>
@@ -455,22 +469,22 @@
         <b class="page-footer-nav__title">Услуги</b>
         <ul class="page-footer-nav__list">
           <li class="page-footer-nav__list-item">
-            <a href="#">Диагностика</a>
+            <a href="/diagnostic.html">Диагностика</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Лечение зубов</a>
+            <a href="/teeth.html">Лечение зубов</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Лечение дёсен</a>
+            <a href="/gum.html">Лечение дёсен</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Удаление зубов</a>
+            <a href="/surgery.html">Удаление зубов</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Красота зубов</a>
+            <a href="/beauty.html">Красота зубов</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="#">Для детей</a>
+            <a href="/children.html">Для детей</a>
           </li>
         </ul>
       </div>

@@ -25,6 +25,10 @@ img {
   height: auto;
 }
 
+.width-content {
+  min-height: 350px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -51,6 +55,7 @@ img {
 @import "reviews";
 @import "page-footer";
 @import "social";
+@import "content";
 
 
 

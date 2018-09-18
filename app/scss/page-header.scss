@@ -1,5 +1,9 @@
 @import "vars";
 
+.page-header--serv {
+  background-color: $color-l-gray;
+}
+
 .page-header__wrapper {
   display: flex;
   flex-direction: column;
