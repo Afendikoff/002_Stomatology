@@ -62,7 +62,8 @@
   .reviews-wrapper {
     width: 720px;
     flex-direction: row;
-    justify-content: space-around;    
+    justify-content: space-around; 
+    align-items: flex-start;   
 
     flex-wrap: wrap;
     align-content: center;

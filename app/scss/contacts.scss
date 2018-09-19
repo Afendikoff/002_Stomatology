@@ -7,7 +7,12 @@
   position: relative;
   z-index: 2;
   background-image: url(/img/map-tablet.jpg);
-    background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url(/img/map-tablet-2x.jpg);
+    background-size: 1200px auto;
+  }
 }
 
 #map {
@@ -46,6 +51,7 @@
 
 .contacts-info a {
   color: #ffffff;
+
   &:hover,
   &:active {
     text-decoration: underline;
@@ -145,6 +151,10 @@
     width: 665px;
     box-shadow: 10px 10px 30px -3px rgba(0, 0, 0, 0.3);
     background-image: url(/img/map-desktop.jpg);
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url(/img/map-desktop-2x.jpg);
+      background-size: 665px auto;
+    }
   }
 
   .contacts-card {
