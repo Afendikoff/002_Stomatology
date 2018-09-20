@@ -24,6 +24,10 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.min.css">
 
+  <!-- Подключаем стили slick slider -->
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+
 </head>
 
 <body>
@@ -34,7 +38,7 @@
     <a name="index"></a>
     <div class="page-header__wrapper">
       <a class="page-header__logo">
-        <img src="img/SVG/main-header-logo.svg" width="210px" height="56px" alt="Логотип стоматологии">
+        <img src="img/SVG/main-logo.svg" width="237px" height="auto" alt="Логотип стоматологии">
       </a>
 
       <nav class="main-nav main-nav--closed main-nav--nojs">
@@ -46,16 +50,16 @@
           <li class="main-nav__list-item main-nav__list-item--serv"><a href="#service">Услуги</a>
 
             <ul class="main-nav__drop">
-              <li class="main-nav__drop-item"><a href="/diagnostic.html">Диагностика</a></li>
-              <li class="main-nav__drop-item"><a href="/teeth.html">Лечение зубов</a></li>
-              <li class="main-nav__drop-item"><a href="/gum.html">Лечение дёсен</a></li>
-              <li class="main-nav__drop-item"><a href="/surgery.html">Удаление зубов</a></li>
-              <li class="main-nav__drop-item"><a href="/beauty.html">Красота зубов</a></li>
-              <li class="main-nav__drop-item"><a href="/children.html">Для детей</a></li>
+              <li class="main-nav__drop-item"><a href="diagnostic.html">Диагностика</a></li>
+              <li class="main-nav__drop-item"><a href="teeth.html">Лечение зубов</a></li>
+              <li class="main-nav__drop-item"><a href="gum.html">Лечение дёсен</a></li>
+              <li class="main-nav__drop-item"><a href="surgery.html">Удаление зубов</a></li>
+              <li class="main-nav__drop-item"><a href="beauty.html">Красота зубов</a></li>
+              <li class="main-nav__drop-item"><a href="children.html">Для детей</a></li>
             </ul>
 
           </li>
-          <li class="main-nav__list-item"><a href="/price.html">Цены</a></li>
+          <li class="main-nav__list-item"><a href="price.html">Цены</a></li>
           <li class="main-nav__list-item"><a href="#contacts">Контакты</a></li>
           <li class="main-nav__list-item"><a href="#specialists">Врачи</a></li>
           <li class="main-nav__list-item"><a href="#reviews">Отзывы</a></li>
@@ -88,7 +92,7 @@
           <a class="banner__phone button button--phone-number button--transparent" href="tel:+380567852885" aria-label="Номер телефона">(056)
             785-28-85</a>
         </div>
-        <a href="/price.html" class="banner__price button button--inverse">Открыть прайс-лист</a>
+        <a href="price.html" class="banner__price button button--inverse">Открыть прайс-лист</a>
       </div>
       <div class="banner__img-wrapper">
         <div class="banner__bg">
@@ -107,32 +111,32 @@
 
       <ul class="service-icon__list">
         <li class="service-icon__item">
-          <a class="service-icon__item--diagnostic" href="/diagnostic.html">
+          <a class="service-icon__item--diagnostic" href="diagnostic.html">
             <h3 class="service-icon__title">Диагностика</h3>
           </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--teeth" href="/teeth.html">
+          <a class="service-icon__item--teeth" href="teeth.html">
             <h3 class="service-icon__title">Лечение зубов</h3><br>
           </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--gum" href="/gum.html">
+          <a class="service-icon__item--gum" href="gum.html">
             <h3 class="service-icon__title">Лечение десен</h3>
           </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--surgery" href="/surgery.html">
+          <a class="service-icon__item--surgery" href="surgery.html">
             <h3 class="service-icon__title">Удаление зубов</h3>
           </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--beauty" href="/beauty.html">
+          <a class="service-icon__item--beauty" href="beauty.html">
             <h3 class="service-icon__title">Красота зубов</h3>
           </a>
         </li>
         <li class="service-icon__item">
-          <a class="service-icon__item--child" href="/children.html">
+          <a class="service-icon__item--child" href="children.html">
             <h3 class="service-icon__title">Детская стоматология</h3>
           </a>
         </li>
@@ -157,10 +161,11 @@
         <div class="block-tiles">
           <picture>
             <source media="(min-width: 768px)" srcset="img/service-diagnostic.jpg 1x, img/service-diagnostic-2x.jpg 2x">
-            <img class="block-tiles__img block-tiles__img--rectangle" src="img/service-diagnostic-mobile.jpg" srcset="img/service-diagnostic-mobile-2x.jpg 2x" alt="Диагностика">
+            <img class="block-tiles__img block-tiles__img--rectangle" src="img/service-diagnostic-mobile.jpg" srcset="img/service-diagnostic-mobile-2x.jpg 2x"
+              alt="Диагностика">
           </picture>
           <div class="block-tiles__item block-tiles__item--rectangle">
-            <a class="block-tiles__link" href="/diagnostic.html">
+            <a class="block-tiles__link" href="diagnostic.html">
               <h3 class="block-tiles__item-title">
                 Диагностика
               </h3>
@@ -173,9 +178,9 @@
         </div>
 
         <div class="block-tiles">
-          <img class="block-tiles__img" src="/img/service-teeth.jpg" srcset="/img/service-teeth-2x.jpg 2x" alt="Лечение зубов">
+          <img class="block-tiles__img" src="img/service-teeth.jpg" srcset="img/service-teeth-2x.jpg 2x" alt="Лечение зубов">
           <div class="block-tiles__item block-tiles__item--blue block-tiles__item--teeth">
-            <a class="block-tiles__link" href="/teeth.html">
+            <a class="block-tiles__link" href="teeth.html">
               <h3 class="block-tiles__item-title">
                 Лечение зубов
               </h3>
@@ -188,9 +193,9 @@
         </div>
 
         <div class="block-tiles">
-          <img class="block-tiles__img" src="/img/service-gum.jpg" srcset="/img/service-gum-2x.jpg 2x" alt="Лечение дёсен">
+          <img class="block-tiles__img" src="img/service-gum.jpg" srcset="img/service-gum-2x.jpg 2x" alt="Лечение дёсен">
           <div class="block-tiles__item block-tiles__item--green block-tiles__item--gum">
-            <a class="block-tiles__link" href="/gum.html">
+            <a class="block-tiles__link" href="gum.html">
               <h3 class="block-tiles__item-title">
                 Лечение дёсен
               </h3>
@@ -204,7 +209,7 @@
 
         <div class="block-tiles">
           <div class="block-tiles__item block-tiles__item">
-            <a class="block-tiles__link button-link" href="/surgery.html">
+            <a class="block-tiles__link button-link" href="surgery.html">
               <h3 class="block-tiles__item-title">
                 Удаление зубов
               </h3>
@@ -214,13 +219,13 @@
               </p>
             </a>
           </div>
-          <img class="block-tiles__img" src="/img/service-surgery.jpg" alt="Удаление зубов">
+          <img class="block-tiles__img" src="img/service-surgery.jpg" alt="Удаление зубов">
         </div>
 
         <div class="block-tiles">
-          <img class="block-tiles__img" src="/img/service-beauty.jpg" srcset="/img/service-beauty-2x.jpg 2x" alt="Красота зубов">
+          <img class="block-tiles__img" src="img/service-beauty.jpg" srcset="img/service-beauty-2x.jpg 2x" alt="Красота зубов">
           <div class="block-tiles__item block-tiles__item--beauty">
-            <a class="block-tiles__link button-link" href="/beauty.html">
+            <a class="block-tiles__link button-link" href="beauty.html">
               <h3 class="block-tiles__item-title">
                 Красота зубов
               </h3>
@@ -234,7 +239,7 @@
 
         <div class="block-tiles">
           <div class="block-tiles__item block-tiles__item--green">
-            <a class="block-tiles__link button-link" href="/children.html">
+            <a class="block-tiles__link button-link" href="children.html">
               <h3 class="block-tiles__item-title">
                 Детская<br>стоматология
               </h3>
@@ -244,7 +249,7 @@
               </p>
             </a>
           </div>
-          <img class="block-tiles__img" src="/img/service-child.jpg" srcset="/img/service-child-2x.jpg 2x" alt="Детская стоматология">
+          <img class="block-tiles__img" src="img/service-child.jpg" srcset="img/service-child-2x.jpg 2x" alt="Детская стоматология">
         </div>
 
       </div>
@@ -258,7 +263,7 @@
         <p class="confidence__call-us">Позвоните и запишитесь на приём уже сегодня.</p>
         <a class="confidence__btn-phone button button--phone-number" href="tel:+380567852885" aria-label="Номер телефона">(056)
           785-28-85</a>
-        <img class="confidence__img" src="/img/confidence-family.png" srcset="/img/confidence-family-2x.png 2x" alt="Фотография семьи">
+        <img class="confidence__img" src="img/confidence-family.png" srcset="img/confidence-family-2x.png 2x" alt="Фотография семьи">
       </div>
     </section>
 
@@ -300,7 +305,7 @@
     <!-- Раздел специалисты -->
     <a name="specialists"></a>
     <section class="specialists">
-      
+
       <div class="section-title">
         <h2 class="section-title__title--spec">
           команда
@@ -313,8 +318,9 @@
       <div class="specialists__wrapper">
         <figure class="specialists-card">
           <picture>
-            <source media="(min-width: 768px)" srcset="/img/specialist_1.jpg 1x, /img/specialist_1-2x.jpg 2x">
-            <img class="specialists-card__img" src="/img/specialist_1_mobile.jpg" srcset="/img/specialist_1_mobile-2x.jpg 2x" alt="Фото специалиста">
+            <source media="(min-width: 768px)" srcset="img/specialist_1.jpg 1x, img/specialist_1-2x.jpg 2x">
+            <img class="specialists-card__img" src="img/specialist_1_mobile.jpg" srcset="img/specialist_1_mobile-2x.jpg 2x"
+              alt="Фото специалиста">
           </picture>
           <figcaption class="specialists-card__info">
             <b class="specialists-card__last-name">Иванова</b>
@@ -325,8 +331,9 @@
 
         <figure class="specialists-card">
           <picture>
-            <source media="(min-width: 768px)" srcset="/img/specialist_2.jpg 1x, /img/specialist_2-2x.jpg 2x">
-            <img class="specialists-card__img" src="/img/specialist_2_mobile.jpg" srcset="/img/specialist_2_mobile-2x.jpg 2x" alt="Фото специалиста">
+            <source media="(min-width: 768px)" srcset="img/specialist_2.jpg 1x, img/specialist_2-2x.jpg 2x">
+            <img class="specialists-card__img" src="img/specialist_2_mobile.jpg" srcset="img/specialist_2_mobile-2x.jpg 2x"
+              alt="Фото специалиста">
           </picture>
           <figcaption class="specialists-card__info">
             <b class="specialists-card__last-name">Сазонов</b>
@@ -337,8 +344,9 @@
 
         <figure class="specialists-card">
           <picture>
-            <source media="(min-width: 768px)" srcset="/img/specialist_3.jpg 1x, /img/specialist_3-2x.jpg 2x">
-            <img class="specialists-card__img" src="/img/specialist_3_mobile.jpg" srcset="/img/specialist_3_mobile-2x.jpg 2x" alt="Фото специалиста">
+            <source media="(min-width: 768px)" srcset="img/specialist_3.jpg 1x, img/specialist_3-2x.jpg 2x">
+            <img class="specialists-card__img" src="img/specialist_3_mobile.jpg" srcset="img/specialist_3_mobile-2x.jpg 2x"
+              alt="Фото специалиста">
           </picture>
           <figcaption class="specialists-card__info">
             <b class="specialists-card__last-name">Глушко</b>
@@ -349,8 +357,9 @@
 
         <figure class="specialists-card">
           <picture>
-            <source media="(min-width: 768px)" srcset="/img/specialist_4.jpg 1x, /img/specialist_4-2x.jpg 2x">
-            <img class="specialists-card__img" src="/img/specialist_4_mobile.jpg" srcset="/img/specialist_4_mobile-2x.jpg 2x" alt="Фото специалиста">
+            <source media="(min-width: 768px)" srcset="img/specialist_4.jpg 1x, img/specialist_4-2x.jpg 2x">
+            <img class="specialists-card__img" src="img/specialist_4_mobile.jpg" srcset="img/specialist_4_mobile-2x.jpg 2x"
+              alt="Фото специалиста">
           </picture>
           <figcaption class="specialists-card__info">
             <b class="specialists-card__last-name">Ковальчук</b>
@@ -376,46 +385,69 @@
       </div>
 
       <div class="reviews-wrapper">
-        <blockquote class="reviews-card">
-          <div class="reviews-card__img">
-            <img src="/img/author_1.jpg" alt="Фото автора" width="115" height="115">
+        <div class="reviews-slider">
+          <div>
+            <blockquote class="reviews-card">
+              <div class="reviews-card__img">
+                <img src="img/author_1.jpg" alt="Фото автора" width="115" height="115">
+              </div>
+              <div class="reviews-card__data">
+                <b class="reviews-card__author">Даша</b>
+                <small class="reviews-card__age">24 года</small>
+              </div>
+              <p class="reviews-card__text">Лечила зуб мудрости. Как всегда очень переживала,
+                но в процессе тревога отступила. Врач сделала всё безболезненно и быстро.
+              </p>
+            </blockquote>
           </div>
-          <div class="reviews-card__data">
-            <b class="reviews-card__author">Даша</b>
-            <small class="reviews-card__age">24 года</small>
-          </div>
-          <p class="reviews-card__text">Лечила зуб мудрости. Как всегда очень переживала,
-            но в процессе тревога отступила. Врач сделала всё безболезненно и быстро.
-          </p>
-        </blockquote>
 
-        <blockquote class="reviews-card">
-          <div class="reviews-card__img">
-            <img src="/img/author_2.jpg" alt="Фото автора" width="115" height="115">
+          <div>
+            <blockquote class="reviews-card">
+              <div class="reviews-card__img">
+                <img src="img/author_2.jpg" alt="Фото автора" width="115" height="115">
+              </div>
+              <div class="reviews-card__data">
+                <b class="reviews-card__author">Игорь</b>
+                <small class="reviews-card__age">42 года</small>
+              </div>
+              <p class="reviews-card__text">Работаю с клиентами и моя улыбка одно из моих главных орудий. Записался на
+                чистку. Процедура стандартная, но внимание и забота врачей...
+              </p>
+            </blockquote>
           </div>
-          <div class="reviews-card__data">
-            <b class="reviews-card__author">Игорь</b>
-            <small class="reviews-card__age">42 года</small>
-          </div>
-          <p class="reviews-card__text">Работаю с клиентами и моя улыбка одно из моих главных орудий. Записался на чистку. Процедура стандартная, но внимание и забота врачей...
-          </p>
-        </blockquote>
 
-        <blockquote class="reviews-card">
-          <div class="reviews-card__img">
-            <img src="/img/author_3.jpg" alt="Фото автора" width="115" height="115">
+          <div>
+            <blockquote class="reviews-card">
+              <div class="reviews-card__img">
+                <img src="img/author_3.jpg" alt="Фото автора" width="115" height="115">
+              </div>
+              <div class="reviews-card__data">
+                <b class="reviews-card__author">Евгения</b>
+                <small class="reviews-card__age">56 лет</small>
+              </div>
+              <p class="reviews-card__text">Под старой пломбой начал болеть зуб. Сделали всё безболезненно, персонал
+                отзывчивый и внимательный. Очень благодарна им.
+              </p>
+            </blockquote>
           </div>
-          <div class="reviews-card__data">
-            <b class="reviews-card__author">Евгения</b>
-            <small class="reviews-card__age">56 лет</small>
+
+          <div>
+            <blockquote class="reviews-card">
+              <div class="reviews-card__img">
+                <img src="img/author_3.jpg" alt="Фото автора" width="115" height="115">
+              </div>
+              <div class="reviews-card__data">
+                <b class="reviews-card__author">Евгения</b>
+                <small class="reviews-card__age">56 лет</small>
+              </div>
+              <p class="reviews-card__text">Под старой пломбой начал болеть зуб. Сделали всё безболезненно, персонал
+                отзывчивый и внимательный. Очень благодарна им.
+              </p>
+            </blockquote>
           </div>
-          <p class="reviews-card__text">Под старой пломбой начал болеть зуб. Сделали всё безболезненно, персонал отзывчивый и внимательный. Очень благодарна им.
-          </p>
-        </blockquote>
+        </div>
       </div>
-      <div class="reviews-card__more">
-        <a class="button" href="#">Смотреть больше отзывов</a>
-      </div>
+
     </section>
   </main>
 
@@ -449,7 +481,7 @@
             <a href="#service">Услуги</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="/price.html">Цены</a>
+            <a href="price.html">Цены</a>
           </li>
           <li class="page-footer-nav__list-item">
             <a href="#contacts">Контакты</a>
@@ -467,22 +499,22 @@
         <b class="page-footer-nav__title">Услуги</b>
         <ul class="page-footer-nav__list">
           <li class="page-footer-nav__list-item">
-            <a href="/diagnostic.html">Диагностика</a>
+            <a href="diagnostic.html">Диагностика</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="/teeth.html">Лечение зубов</a>
+            <a href="teeth.html">Лечение зубов</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="/gum.html">Лечение дёсен</a>
+            <a href="gum.html">Лечение дёсен</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="/surgery.html">Удаление зубов</a>
+            <a href="surgery.html">Удаление зубов</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="/beauty.html">Красота зубов</a>
+            <a href="beauty.html">Красота зубов</a>
           </li>
           <li class="page-footer-nav__list-item">
-            <a href="/children.html">Для детей</a>
+            <a href="children.html">Для детей</a>
           </li>
         </ul>
       </div>
@@ -546,6 +578,50 @@
   </script>
 
   <script src="js/scripts.min.js"></script>
+
+
+
+  <!-- Подключаем библиотеку JS slick slider -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+
+  <!-- Инициализация slick slider -->
+  <script>
+    $(document).ready(function () {
+      $('.reviews-slider').slick({
+        infinite: true,
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        prevArrow: '<button class="slider-btn slider-btn--prev" type="button"></button>',
+        nextArrow: '<button class="slider-btn slider-btn--next" type="button"></button>',
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              prevArrow: '<button class="slider-btn slider-btn--prev" type="button"></button>',
+              nextArrow: '<button class="slider-btn slider-btn--next" type="button"></button>'
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              prevArrow: '<button class="slider-btn slider-btn--prev" type="button"></button>',
+              nextArrow: '<button class="slider-btn slider-btn--next" type="button"></button>'
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
+    });
+
+  </script>
 
 </body>
 

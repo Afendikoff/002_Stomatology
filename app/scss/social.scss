@@ -25,15 +25,15 @@
 
 .social__link--facebook::before {
   @include icon-social();
-  background-image: url(/img/SVG/icon-facebook.svg);
+  background-image: url(../img/SVG/icon-facebook.svg);
 }
 
 .social__link--instagram::before {
   @include icon-social();
-  background-image: url(/img/SVG/icon-instagram.svg);
+  background-image: url(../img/SVG/icon-instagram.svg);
 }
 
 .social__link--linkedin::before {
   @include icon-social();
-  background-image: url(/img/SVG/icon-linkedin.svg);
+  background-image: url(../img/SVG/icon-linkedin.svg);
 }

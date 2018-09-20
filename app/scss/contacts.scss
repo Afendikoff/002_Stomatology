@@ -6,11 +6,11 @@
   box-shadow: 0 10px 30px -3px rgba(0, 0, 0, 0.3);
   position: relative;
   z-index: 2;
-  background-image: url(/img/map-tablet.jpg);
+  background-image: url(../img/map-tablet.jpg);
   background-repeat: no-repeat;
   background-position: center;
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-    background-image: url(/img/map-tablet-2x.jpg);
+    background-image: url(../img/map-tablet-2x.jpg);
     background-size: 1200px auto;
   }
 }
@@ -70,7 +70,7 @@
     left: 10px;
     width: 19px;
     height: 19px;
-    background-image: url(/img/SVG/icon-clock.svg);
+    background-image: url(../img/SVG/icon-clock.svg);
   }
 }
 
@@ -87,7 +87,7 @@
     left: 10px;
     width: 18px;
     height: 18px;
-    background-image: url(/img/SVG/icon-phone.svg);
+    background-image: url(../img/SVG/icon-phone.svg);
   }
 }
 
@@ -103,7 +103,7 @@
     left: 13px;
     width: 20px;
     height: 20px;
-    background-image: url(/img/SVG/icon-marker.svg);
+    background-image: url(../img/SVG/icon-marker.svg);
     background-repeat: no-repeat;
   }
 }
@@ -125,7 +125,7 @@
   }
 
   .contacts-map {
-    background-image: url(/img/map-tablet.jpg);
+    background-image: url(../img/map-tablet.jpg);
     background-position: center;
   }
 
@@ -144,15 +144,15 @@
     position: relative;
     width: 1100px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
   }
 
   .contacts-map {
     width: 665px;
     box-shadow: 10px 10px 30px -3px rgba(0, 0, 0, 0.3);
-    background-image: url(/img/map-desktop.jpg);
+    background-image: url(../img/map-desktop.jpg);
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url(/img/map-desktop-2x.jpg);
+      background-image: url(../img/map-desktop-2x.jpg);
       background-size: 665px auto;
     }
   }

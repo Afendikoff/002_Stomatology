@@ -51,32 +51,32 @@
 
 .service-icon__item--diagnostic::before {
   @include icon-bg;
-  background-image: url(/img/SVG/icon-diagnostic.svg);
+  background-image: url(../img/SVG/icon-diagnostic.svg);
 }
 
 .service-icon__item--teeth::before {
   @include icon-bg;
-  background-image: url(/img/SVG/icon-teeth.svg);
+  background-image: url(../img/SVG/icon-teeth.svg);
 }
 
 .service-icon__item--gum::before {
   @include icon-bg;
-  background-image: url(/img/SVG/icon-gum.svg);
+  background-image: url(../img/SVG/icon-gum.svg);
 }
 
 .service-icon__item--surgery::before {
   @include icon-bg;
-  background-image: url(/img/SVG/icon-surgery.svg);
+  background-image: url(../img/SVG/icon-surgery.svg);
 }
 
 .service-icon__item--beauty::before {
   @include icon-bg;
-  background-image: url(/img/SVG/icon-beauty.svg);
+  background-image: url(../img/SVG/icon-beauty.svg);
 }
 
 .service-icon__item--child::before {
   @include icon-bg;
-  background-image: url(/img/SVG/icon-child-dental.svg);
+  background-image: url(../img/SVG/icon-child-dental.svg);
 }
 
 @media (min-width: $tablet-width) {
