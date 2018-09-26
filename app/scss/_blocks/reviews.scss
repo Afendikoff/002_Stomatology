@@ -1,0 +1,128 @@
+
+
+.reviews-wrapper {
+  width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.reviews-slider {
+  text-align: justify;
+}
+
+.reviews-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.reviews-card__img {
+  display: inline-block;
+  border-radius: 70px;
+  border: 6px solid #ffffff;
+  overflow: hidden;
+  width: 115px;
+  height: 115px;
+}
+
+.reviews-card__data {
+  padding: 15px;
+}
+
+.reviews-card__author {
+  display: block;
+  font-family: $main-font;
+  color: $color-d-blue;
+  font-size: 22px;
+}
+
+.reviews-card__age {
+  color: $color-l-blue;
+}
+
+.reviews-card__text {
+  position: relative;
+  bottom: 10px;
+  z-index: -1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  background-color: $color-l-gray;
+  border-radius: 7px;
+}
+
+.reviews-card__more {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* Настройки слайдера */
+
+.slick-active {
+  outline: none;
+}
+
+.slick-slider {
+  text-align: left;
+}
+
+.slider-btn {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  width: 15px;
+  height: 20px;
+  background-color: transparent;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider-btn--prev {
+  left: -10px;
+  background-image: url(../img/SVG/icon-arrow-left.svg);
+}
+
+.slider-btn--next {
+  right: -10px;
+  background-image: url(../img/SVG/icon-arrow-right.svg);
+   
+}
+
+@media (min-width: $tablet-width) {
+  .reviews-wrapper {
+    width: 720px;
+  }
+
+  .reviews-card {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .slider-btn--prev {
+    left: -20px;
+  }
+  
+  .slider-btn--next {
+    right: -20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reviews-wrapper {
+    width: 1110px;
+  }
+
+  .reviews-card {
+    width: 340px;
+  }
+
+  
+}

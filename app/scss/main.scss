@@ -1,6 +1,6 @@
-@import "vars";
-@import "fonts";
-@import "libs";
+@import "_vars";
+@import "_fonts";
+@import "_libs";
 
 body {
   margin: 0;
@@ -39,27 +39,29 @@ img {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  overflow: hidden; 
 }
 
-@import "page-header";
-@import "main-navigation";
-@import "button";
-@import "banner";
-@import "service-icon";
-@import "section-title";
-@import "service";
-@import "confidence";
-@import "contacts";
-@import "specialists";
-@import "reviews";
-@import "page-footer";
-@import "social";
-@import "content";
+
+
+@import "_blocks/page-header";
+@import "_blocks/main-navigation";
+@import "_blocks/button";
+@import "_blocks/banner";
+@import "_blocks/service-icon";
+@import "_blocks/section-title";
+@import "_blocks/service";
+@import "_blocks/confidence";
+@import "_blocks/contacts";
+@import "_blocks/specialists";
+@import "_blocks/reviews";
+@import "_blocks/page-footer";
+@import "_blocks/social";
+@import "_blocks/content";
 
 
 
 
 
 
-@import "media"; // Always at the end
+@import "_media"; // Always at the end

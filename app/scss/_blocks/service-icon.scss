@@ -1,0 +1,94 @@
+
+@import "_mixins/service-icon-bg";
+
+.service-icon {
+  width: 100%;
+  background-color: $color-d-blue;
+}
+
+.service-icon__list {
+  margin: 0 auto;
+  padding: 0;
+  //padding-bottom: 10px;
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  font-family: $main-font;
+
+}
+
+.service-icon__item {
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  position: relative;
+  
+}
+
+.service-icon__item a {
+  display: block;
+  width: 145px;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  transition: 0.3s;
+  &:hover,
+  &:active {
+    color: $color-l-blue;
+    background-color: $color-d-blue-l;
+  }
+}
+
+.service-icon__title {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.service-icon__item--diagnostic::before {
+  @include icon-bg;
+  background-image: url(../img/SVG/icon-diagnostic.svg);
+}
+
+.service-icon__item--teeth::before {
+  @include icon-bg;
+  background-image: url(../img/SVG/icon-teeth.svg);
+}
+
+.service-icon__item--gum::before {
+  @include icon-bg;
+  background-image: url(../img/SVG/icon-gum.svg);
+}
+
+.service-icon__item--surgery::before {
+  @include icon-bg;
+  background-image: url(../img/SVG/icon-surgery.svg);
+}
+
+.service-icon__item--beauty::before {
+  @include icon-bg;
+  background-image: url(../img/SVG/icon-beauty.svg);
+}
+
+.service-icon__item--child::before {
+  @include icon-bg;
+  background-image: url(../img/SVG/icon-child-dental.svg);
+}
+
+@media (min-width: $tablet-width) {
+  .service-icon__list {
+    width: 500px;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .service-icon__list {
+    width: 1100px;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,83 @@
+
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section-title h1, h2 {
+  margin: 0;
+  font-family: $default-font;
+}
+
+.section-title__title {
+  color: $color-l-blue;
+  font-size: 15px;
+  position: relative;
+  padding-top: 12px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 12px;
+    top: 0;
+    left: 50%;
+    margin-left: -15px;
+    background-image: url(../img/SVG/icon-cardiogram.svg);
+  }
+}
+
+.section-title__title--spec {
+  color: $color-green;
+  font-size: 15px;
+  position: relative;
+  padding-top: 12px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 12px;
+    top: 0;
+    left: 50%;
+    margin-left: -15px;
+    background-image: url(../img/SVG/icon-cardiogram-green.svg);
+  }
+}
+
+.section-title__description {
+  color: $color-d-blue;
+  font-size: 22px;
+  line-height: 23px;
+  font-family: $main-font;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.section-title__description--spec {
+  color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .section-title {
+    margin-bottom: 40px;
+  }
+
+  .section-title__description {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .section-title__description {
+    font-size: 36px;
+  }
+}
