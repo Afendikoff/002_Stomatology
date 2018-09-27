@@ -34,6 +34,7 @@ gulp.task('js', function () {
   return gulp.src([
       'app/libs/jquery/dist/jquery.min.js',
       'app/libs/slick-carousel/slick/slick.min.js',
+      'app/libs/wow/wow.min.js',
       'app/js/main.js', // Always at the end
     ])
     .pipe(concat('main.min.js'))

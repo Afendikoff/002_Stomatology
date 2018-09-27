@@ -32,6 +32,7 @@
 }
 
 .specialists-card__last-name {
+  display: block;
   font-family: $main-font;
   color: $color-d-blue;
   font-size: 23px;
@@ -42,6 +43,7 @@
 }
 
 .specialists-card__position {
+  display: block;
   color: $color-l-blue;
   font-size: 14px;
 }
