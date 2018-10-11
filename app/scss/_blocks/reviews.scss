@@ -43,7 +43,7 @@
   color: $color-l-blue;
 }
 
-.reviews-card__text {
+.reviews-card__text-bg {
   position: relative;
   bottom: 10px;
   z-index: -1;
@@ -51,15 +51,17 @@
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 14px;
   background-color: $color-l-gray;
   border-radius: 7px;
 }
 
-.reviews-card__more {
-  margin-top: 40px;
-  text-align: center;
+.reviews-card__text {
+  font-size: 14px;
+  margin: 0;
 }
+
+
+
 
 /* Настройки слайдера */
 

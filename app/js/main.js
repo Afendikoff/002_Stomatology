@@ -17,6 +17,8 @@ $(function () {
       });
     })
 
+//слик-слайдер
+
     $(document).ready(function () {
       $('.reviews-slider').slick({
         infinite: true,
@@ -49,3 +51,38 @@ $(function () {
         ]
       });
     });
+
+//плавный скролл
+$(document).ready(function () {
+  $("#js-service-link").on("click", function(event) {
+    event.preventDefault();
+    $("html, body").animate({
+      scrollTop: $("#js-service").offset().top - 20
+    }, 1000);
+    return false;
+  });
+
+  $("#js-contacts-link").on("click", function(event) {
+    event.preventDefault();
+    $("html, body").animate({
+      scrollTop: $("#js-contacts").offset().top - 20
+    }, 1000);
+    return false;
+  });
+
+  $("#js-spec-link").on("click", function(event) {
+    event.preventDefault();
+    $("html, body").animate({
+      scrollTop: $("#js-spec").offset().top + 2
+    }, 1000);
+    return false;
+  });
+
+  $("#js-reviews-link").on("click", function(event) {
+    event.preventDefault();
+    $("html, body").animate({
+      scrollTop: $("#js-reviews").offset().top - 20
+    }, 1000);
+    return false;
+  });
+});
